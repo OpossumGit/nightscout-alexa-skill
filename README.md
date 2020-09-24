@@ -10,7 +10,11 @@ Passphrase is written in encrypted format, you can see it in your browser consol
 
 # usage examples (see intents for more ideas)
 > alexa ask nightscout what is my sugar
+
 > alexa ask night scout to register set change
+
 > alexa ask night scout to register sensor change
+
 > alexa ask night scout to register battery change
+
 > alexa ask night scout to register new insulin
