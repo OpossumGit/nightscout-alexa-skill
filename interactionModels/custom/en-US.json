@@ -1,0 +1,105 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "night scout",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "CurrentLevelIntent",
+          "slots": [],
+          "samples": [
+            "glucose",
+            "sugar level",
+            "what is my level",
+            "What is my current sugar",
+            "What is my sugar",
+            "How am I doing"
+          ]
+        },
+        {
+          "name": "SetIntent",
+          "slots": [],
+          "samples": [
+            "record new set",
+            "Set",
+            "Set changed",
+            "New set"
+          ]
+        },
+        {
+          "name": "InsulinIntent",
+          "slots": [],
+          "samples": [
+            "record new insulin",
+            "insulin taken",
+            "insulin",
+            "New insulin"
+          ]
+        },
+        {
+          "name": "BatteryIntent",
+          "slots": [],
+          "samples": [
+            "battery change",
+            "record new battery",
+            "battery",
+            "new battery",
+            "Battery changed"
+          ]
+        },
+        {
+          "name": "SensorIntent",
+          "slots": [],
+          "samples": [
+            "record new sensor",
+            "libre started",
+            "new libre",
+            "libre",
+            "sensor",
+            "Sensor started",
+            "New sensor"
+          ]
+        }
+      ],
+      "types": [],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "6"
+}
